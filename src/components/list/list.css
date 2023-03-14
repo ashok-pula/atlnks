@@ -1,0 +1,107 @@
+.tab {
+  text-transform: lowercase;
+}
+.infoContainer {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+.infoContact {
+  border: 1px solid gray;
+  /* background-color: red; */
+  border-radius: 10px;
+  width: 300px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 8px;
+  gap: 20px;
+}
+.infoContactEdit {
+  display: flex;
+  justify-content: space-between;
+}
+.infoContactEdit > span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.infoContactEditIcon {
+  cursor: pointer;
+}
+.infoContactEmail {
+  display: flex;
+  /* align-items: center; */
+  gap: 5px;
+}
+.emails {
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+
+  justify-content: space-between;
+}
+.emailList {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+}
+.contactPhone1 {
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+
+  justify-content: space-between;
+}
+.emailCount,
+.phoneCount {
+  width: 14px;
+  height: 14px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: rgb(241, 164, 164);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(105, 5, 5);
+  font-size: 12px;
+}
+.infoContactPhone {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.infoContactAddress {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.infoHours {
+  margin-top: 20px;
+}
+.infoContactEdit {
+  display: flex;
+}
+.infoContactMedia {
+  display: flex;
+  margin-top: 10px;
+  /* align-self: center; */
+  margin-left: 25px;
+}
+.infoContactMedia > span {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.infoStatement {
+  margin-top: 10px;
+}
+.infoContactEditIcon {
+  cursor: pointer;
+  color: red;
+}

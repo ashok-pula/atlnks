@@ -1,0 +1,42 @@
+.contactTeam {
+  margin-top: 20px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.contactTeamHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contactText {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* color: gray; */
+}
+.icons {
+  display: flex;
+  gap: 10px;
+  color: rgb(233, 142, 142);
+}
+.icon {
+  cursor: pointer;
+}
+.contactEmail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contactTeamPhone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contactPhone {
+  display: flex;
+  gap: 10px;
+}

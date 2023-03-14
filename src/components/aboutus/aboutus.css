@@ -1,0 +1,86 @@
+.aboutus {
+  padding: 30px;
+}
+.aboutUsHeading {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.aboutusImageContainer {
+  display: flex;
+  gap: 20px;
+}
+.aboutusImg {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.aboutusTexts {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.aboutusText1,
+.aboutusText2 {
+  font-size: 16px;
+}
+.aboutUsVerify {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+.aboutus-icon {
+  color: rgb(224, 210, 210);
+}
+.aboutUsParagraphEdit {
+  display: flex;
+  margin: 15px 0px;
+
+  flex-direction: column;
+}
+
+.aboutUsParagraphdetails {
+  /* display: flex; */
+  /* align-items: center; */
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  width: 70%;
+}
+.aboutusParagraph {
+  width: 100%;
+  height: 40px;
+  /* background-color: red; */
+  color: gray;
+  overflow: hidden;
+}
+.aboutUsInputContainer {
+  display: flex;
+  gap: 10px;
+  /* background-color: red; */
+  width: 70%;
+}
+
+.edit-icon {
+  cursor: pointer;
+  color: red;
+}
+
+.aboutUsInput {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  height: 50px;
+}
+.aboutUsSave {
+  height: max-content;
+  align-self: center;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}

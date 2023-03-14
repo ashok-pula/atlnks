@@ -1,0 +1,62 @@
+.contacts {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* background-color: red; */
+  height: 100vh;
+  width: 400px;
+  z-index: 9999;
+  transition: 0.5s ease-in;
+  /* background-color: gray; */
+  background-color: white;
+}
+.contactsWrapper {
+  padding: 25px;
+}
+.contactsTitle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.arrowBack {
+  cursor: pointer;
+  /* width: 30px !important; */
+}
+.contactsDescription {
+  font-size: 14px;
+  color: gray;
+}
+.contactsSaveButton {
+  width: 100%;
+  margin-top: 40px;
+  padding: 10px 0px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: #f50c0c;
+  cursor: pointer;
+}
+.editForm {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.editForm > input {
+  padding: 10px;
+  outline: none;
+}
+.addMore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background-color: rgb(235, 211, 212);
+  border: none;
+  padding: 5px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}

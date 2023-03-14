@@ -1,0 +1,11 @@
+.mainContainer {
+  background-color: rgba(199, 194, 194, 0.123);
+  /* height: calc(100vh - 60px); */
+  padding: 30px 20px;
+  display: flex;
+}
+.ashok {
+  flex: 6;
+  background-color: white;
+  border-radius: 5px;
+}
